@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="project.css"> -->
+</head>
+
+<body>
+
+    <header>
+        <div class="video-container" id="video-container">
+            <video autoplay muted loop id="header-video">
+                <source src="./video/video1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="logo">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">Who am I</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Kitty</a></li>
+                <li class="nav__item"><a href="index.html#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            The personal <strong>project</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">A short subtitle</p>
+        <img src="img/logo.png" alt="" class="intro__img">
+    </section>
+
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Projects</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+
+            <a href="./rpg/index.html" class="portfolio__item">
+                <img src="./img/wd.jpg" </a>
+                <h3>Simple RPG game</h3>
+                <p>Your goal is to kill the dragon and save the princess!(Entire game will be updating and adding more
+                    features)</p>
+                <a href="./Foodmenu/index.html" class="portfolio__item">
+                    <img src="./img/food.jpg" </a>
+                    <h3>ordering food</h3>
+                    <p>It is an ordering food web for my girlfriend to order her everyday dish.</p>
+                </a>
+                <a href="./Todo/index.html" class="portfolio__item">
+                    <img src="./img/Todo.jpg" </a>
+                    <h3>To do app</h3>
+                    <p>Is a simple tool used for managing tasks and organizing daily activities. .</p>
+                </a>
+                <a href="#" class="portfolio__item">
+
+                </a>
+                <a href="#" class="portfolio__item">
+
+                </a>
+                <a href="#" class="portfolio__item">
+
+                </a>
+
+    </section>
+
+    <footer class="footer" id="footer">
+        <a href="mailto:joechen731jobmail@gmail.com" class="footer__link">joechen731jobmail@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/joe-chen-54a5121a1/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="http://google.com">
+                    <i class="fab fa-google"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://wechat.com">
+                    <i class="fab fa-wechat"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

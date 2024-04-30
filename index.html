@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="video-container" id="video-container">
+            <video autoplay muted loop id="header-video">
+                <source src="./video/video1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="logo">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Who am I</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#footer" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Joe Chen</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"><br>FrontEnd Software Engineer</p>
+        <img src="./img/chen.png" alt="a picture of Joe Chen" class="intro__img">
+    </section>
+
+
+    <section class="my-projects" id="services">
+        <h2 class="section__title section__title--projects">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>UI Design and Development</h3>
+                <p>
+                <p>As front-end software engineers, we design and develop the visual elements of a website or web
+                    application. This includes creating layouts, choosing color schemes, designing icons and graphics,
+                    and ensuring the interface is beautiful and user-friendly. Using tools like HTML, CSS, and
+                    JavaScript to implement these designs ensures compatibility across different browsers and devices.
+                    By focusing on the user interface, we aim to enhance usability and create an engaging experience for
+                    website visitors.
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>Performance Optimization</h3>
+                <p>
+                <p>
+                    Optimize the performance of web applications. This includes improving page load times, minimizing
+                    render-blocking resources, and reducing the size of resources such as images, scripts, and
+                    stylesheets. Use various techniques like code splitting, lazy loading, and caching to make your
+                    website faster and more responsive. Optimizing performance helps improve user experience, improve
+                    search engine rankings, and increase user engagement.
+                </p>
+            </div>
+
+            <div class="service">
+                <h3>Testing and Debugging</h3>
+                <p>Making sure a website or web app works well on all browsers and devices is super important for
+                    reaching lots of people. As a Frontend Software Engineer, we test and fix any issues that might pop
+                    up. We use tools like browser developer tools and special testing programs to find and solve
+                    problems with how things look or work. Fixing these browser issues helps everyone have a smooth
+                    experience, whether they're using a phone, tablet, or computer.</p>
+            </div>
+        </div>
+
+        <a href="portfolio-item.html" class="btn">My project</a>
+        <a href="#work" class="btn">My kitty</a>
+    </section>
+
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Frontend & Database Developer</p>
+
+        <div class="about-me__body">
+            <p>Residing in Brooklyn for over a decade, I am Joe Chen or CJ—a proud Brooklynite with a fervent passion
+                for blending creativity with technology. Armed with a degree from the prestigious Rochester Institute of
+                Technology, I flourish in the realm where design meets development. Proficient in both English and
+                Chinese, I bring a multifaceted perspective to my endeavors in front-end visualization. For me, the
+                allure of coding lies not only in its functionality but in the aesthetic appeal of the final outcome.
+                Whether fashioning a sleek user interface or breathing life into data through interactive visuals,
+                witnessing my code manifest into reality fills me with immense satisfaction..</p>
+            <p>Beyond the confines of my professional realm, I am an ardent gamer, basketball aficionado, and an
+                incurable wanderer. These interests not only ignite my creative spark but also echo my conviction that
+                excellence is a product of relentless effort rather than inherent talent. With both short-term
+                aspirations and long-term ambitions, I am dedicated to incessantly refining my skills and broadening my
+                experiences. My ultimate goal is to ascend to a senior position, leading teams and spearheading
+                impactful projects. Driven by a thirst for innovation and a steadfast commitment to personal growth, I
+                am poised to leave an indelible mark on the dynamic landscape of technology and design..</p>
+        </div>
+
+
+        <img src="./img/e.jpg" alt="joe is graduate from RIT 2023" class="about-me__img">
+    </section>
+    <section class="my-work" id="work">
+        <h2 class="section__title">My Kitty</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+
+            <a href="#" class="portfolio__item">
+                <img src="img/d.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__item">
+                <img src="img/D1.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__item">
+                <img src="img/Doudou2.jpg" alt="" class="portfolio__img">
+            </a>
+
+
+            <a href="#" class="portfolio__item">
+                <img src="img/D4.jpg" alt="" class="portfolio__img">
+            </a>
+
+
+            <a href="#" class="portfolio__item">
+                <img src="img/Doudou.jpg" alt="" class="portfolio__img">
+            </a>
+
+
+            <a href="#" class="portfolio__item">
+                <img src="img/Doudou5.jpg" alt="" class="portfolio__img">
+            </a>
+
+
+            <a href="#" class="portfolio__item">
+                <img src="img/Molly2.jpg" alt="" class="portfolio__img">
+            </a>
+
+
+            <a href="#" class="portfolio__item">
+                <img src="img/Molly3.jpg" alt="" class="portfolio__img">
+            </a>
+
+
+            <a href="#" class="portfolio__item">
+                <img src="img/Molly4.jpg" alt="" class="portfolio__img">
+            </a>
+
+
+            <a href="#" class="portfolio__item">
+                <img src="img/Molly5.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__item">
+                <img src="img/Molly6.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <a href="#" class="portfolio__item">
+                <img src="img/Molly7.jpg" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+
+    <footer class="footer" id="footer">
+        <a href="mailto:joechen731jobmail@gmail.com" class="footer__link">joechen731jobmail@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/joe-chen-54a5121a1/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="http://google.com">
+                    <i class="fab fa-google"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.freecodecamp.org/jc7181">
+                    <i class="fa fa-free-code-camp"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
